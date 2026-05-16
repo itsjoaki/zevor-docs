@@ -1,0 +1,90 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Zevor",
+  "colors": {
+    "primary": "#00d084",
+    "light": "#00d084",
+    "dark": "#00b073"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png",
+    "href": "https://zevor.ai"
+  },
+  "background": {
+    "color": {
+      "dark": "#0B0C0E"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Soporte",
+        "href": "mailto:hello@zevor.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Ir a Zevor",
+      "href": "https://zevor.ai/crear"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/zevorhq",
+      "instagram": "https://www.instagram.com/zevor.ai",
+      "tiktok": "https://www.tiktok.com/@zevor.ai"
+    }
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "es",
+        "default": true,
+        "groups": [
+          {
+            "group": "Empezar",
+            "pages": ["es/introduccion", "es/primeros-pasos"]
+          },
+          {
+            "group": "Modos",
+            "pages": [
+              "es/modos/video",
+              "es/modos/motion",
+              "es/modos/personajes",
+              "es/modos/imagen"
+            ]
+          },
+          {
+            "group": "Más",
+            "pages": ["es/herramientas", "es/creditos-y-planes", "es/faq"]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": ["en/introduction", "en/getting-started"]
+          },
+          {
+            "group": "Modes",
+            "pages": [
+              "en/modes/video",
+              "en/modes/motion",
+              "en/modes/characters",
+              "en/modes/image"
+            ]
+          },
+          {
+            "group": "More",
+            "pages": ["en/tools", "en/credits-and-plans", "en/faq"]
+          }
+        ]
+      }
+    ]
+  }
+}
