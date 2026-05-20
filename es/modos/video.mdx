@@ -1,6 +1,6 @@
 ---
 title: "Vídeo con IA"
-description: "Describe la escena en una frase y la IA la convierte en hasta 8 segundos de vídeo cinematográfico, con sonido nativo y formato vertical 9:16."
+description: "Describe la escena en una frase y la IA la convierte en hasta 8 segundos de vídeo cinematográfico, con sonido nativo y formato vertical 9:16. Calidades Lite, Pro y 4K."
 ---
 
 El modo Vídeo genera clips verticales 9:16 con **sonido nativo**, de
@@ -16,21 +16,46 @@ hasta **8 segundos**, listos para publicar en menos de un minuto.
 
 ## Calidad
 
-- **Lite** — más barato, ideal para iterar y encontrar el prompt.
-- **Pro** — calidad de publicación.
-- **4K** — máxima resolución para piezas destacadas.
-
-El coste en créditos se muestra en el botón **Generar** antes de
-confirmar, y varía según calidad, duración y si activas audio.
+- **Lite**: lo más barato, ideal para iterar y encontrar el prompt.
+- **Pro**: calidad de publicación.
+- **4K**: máxima resolución para piezas destacadas.
 
 <Note>
-  Si adjuntas una imagen, Zevor respeta la calidad que elijas — no la
+  Si adjuntas una imagen, Zevor respeta la calidad que elijas, no la
   sube automáticamente. Tú decides el coste.
 </Note>
 
+## Coste estimado
+
+Coste en créditos por segundo de salida. El total exacto aparece en el
+botón **Generar** antes de confirmar.
+
+| Calidad | Sin audio | Con audio |
+| --- | --- | --- |
+| **Lite** | 4 cr/s | 6 cr/s |
+| **Pro** | 6 cr/s | 8 cr/s |
+| **4K** | 18 cr/s | 18 cr/s |
+
+Ejemplo: un vídeo Pro con audio de 8 s = 64 cr. Caben ~2 en un mes
+Starter (120 cr) o ~9 en Pro (600 cr).
+
+## Ejemplos de prompt
+
+- **Texto a vídeo**: "Plano medio cinematográfico, mujer rubia con
+  chaqueta de cuero camina por una calle de Tokio de noche, neones
+  reflejados en el suelo mojado, cámara la sigue desde atrás."
+- **Imagen a vídeo**: "La modelo gira lentamente hacia cámara y
+  sonríe, viento moviéndole el pelo."
+- **Frames a vídeo**: imagen inicial = persona de espaldas; imagen
+  final = misma persona mirando a cámara. La IA inventa el giro.
+
 ## Buenas prácticas
 
-- Describe acción y cámara, no solo el sujeto ("plano medio, ella gira y
-  mira a cámara" rinde más que "una chica").
-- Para imagen a vídeo, usa una imagen nítida y bien encuadrada: el vídeo
-  hereda sus defectos.
+- Describe acción y cámara, no solo el sujeto ("plano medio, ella
+  gira y mira a cámara" rinde más que "una chica").
+- Para imagen a vídeo, usa una imagen nítida y bien encuadrada: el
+  vídeo hereda sus defectos.
+- Empieza con Lite. Si te gusta el resultado, regenera en Pro con el
+  mismo prompt para la versión publicable.
+- Si trabajas con un avatar fijo, ver la receta
+  [Crear un AI Influencer](/es/recetas/ai-influencer).

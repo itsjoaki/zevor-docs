@@ -1,0 +1,67 @@
+---
+title: "Upscale video"
+description: "Boost a video's resolution and sharpness with AI. From 720p to 4K, recovering detail in old clips, compressed exports or low-quality recordings."
+---
+
+Video upscale uses AI to raise a clip's resolution and bring detail
+back. It is not a simple pixel stretch: it reconstructs textures, edges
+and faces frame by frame.
+
+## What it's for
+
+- Recovering old recordings from a phone or compact camera.
+- Bumping a clip exported at low quality (WhatsApp, social, screen
+  recorder) up to publishing resolution.
+- Pulling sharp stills for thumbnails or screenshots.
+
+## How it works
+
+<Steps>
+  <Step title="Upload the video">
+    MP4 up to **20 seconds** of source, up to **1080p** input
+    resolution. If your video is longer, cut it first.
+  </Step>
+  <Step title="Pick the factor">
+    **2x** (most cases) or **4x** (when you start from low resolution
+    and want to land on 4K). Cost scales quadratically because 4x
+    renders ~4× the pixels of 2x.
+  </Step>
+  <Step title="Generate and download">
+    The job runs async: leave it queued, we ping you when it's done.
+    Download MP4 ready to publish.
+  </Step>
+</Steps>
+
+## Cost
+
+| Duration × factor | Approx cost |
+| --- | --- |
+| 5 s at 2x | 30 cr |
+| 10 s at 2x | 60 cr |
+| 5 s at 4x | 120 cr |
+| 10 s at 4x | 240 cr |
+
+The factor drives the bill: 4x costs 4× a 2x job at the same duration.
+If you only need the clip to look good on TikTok or Reels, **2x is
+usually enough**.
+
+## Best practices
+
+- Start at **2x**. If you still want more after seeing the result, run
+  it again at 4x. You save credits on what was a test.
+- Don't mix upscale with aggressive compression. If your source is
+  badly compressed, AI recovers what it can, but some detail is
+  already lost.
+- For long pieces, **chunk first** (10 s max per chunk) and rejoin in
+  your editor.
+
+## Limits
+
+- 20 seconds max of source per job.
+- 1080p input max (4K input adds nothing and burns more compute).
+- MP4 only.
+
+<Note>
+  Try it: [zevor.ai/ai-video-upscaler](https://zevor.ai/ai-video-upscaler).
+  For a single image, see [Upscale image](https://zevor.ai/ai-image-upscaler).
+</Note>

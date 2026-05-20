@@ -1,6 +1,6 @@
 ---
 title: "AI video"
-description: "Describe a scene in a sentence and AI turns it into up to 8 seconds of cinematic video, with native sound and vertical 9:16 format."
+description: "Describe a scene in a sentence and AI turns it into up to 8 seconds of cinematic video, with native sound and vertical 9:16 format. Lite, Pro and 4K quality tiers."
 ---
 
 Video mode generates vertical 9:16 clips with **native sound**, up to
@@ -16,17 +16,38 @@ Video mode generates vertical 9:16 clips with **native sound**, up to
 
 ## Quality
 
-- **Lite** — cheapest, ideal for iterating to find the prompt.
-- **Pro** — publish-ready quality.
-- **4K** — max resolution for hero pieces.
-
-The credit cost is shown on the **Generate** button before you confirm,
-and varies with quality, duration and whether audio is on.
+- **Lite**: cheapest, ideal for iterating to find the prompt.
+- **Pro**: publish-ready quality.
+- **4K**: max resolution for hero pieces.
 
 <Note>
-  If you attach an image, Zevor keeps the quality you picked — it does
-  not auto-upgrade. You control the cost.
+  If you attach an image, Zevor keeps the quality you picked, it
+  doesn't auto-upgrade. You control the cost.
 </Note>
+
+## Cost estimate
+
+Credit cost per second of output. The exact total shows on the
+**Generate** button before you confirm.
+
+| Quality | No audio | With audio |
+| --- | --- | --- |
+| **Lite** | 4 cr/s | 6 cr/s |
+| **Pro** | 6 cr/s | 8 cr/s |
+| **4K** | 18 cr/s | 18 cr/s |
+
+Example: a Pro video with audio, 8 s = 64 cr. Fits ~2 in a Starter
+month (120 cr) or ~9 in Pro (600 cr).
+
+## Prompt examples
+
+- **Text to video**: "Medium cinematic shot, blonde woman in a
+  leather jacket walks down a Tokyo street at night, neon reflections
+  on the wet pavement, camera follows her from behind."
+- **Image to video**: "The model slowly turns to camera and smiles,
+  wind moving her hair."
+- **Frames to video**: start frame = person from behind; end frame =
+  same person looking at camera. AI invents the turn.
 
 ## Best practices
 
@@ -34,3 +55,7 @@ and varies with quality, duration and whether audio is on.
   turns and looks at camera" beats "a girl").
 - For image to video, use a sharp, well-framed image: the video
   inherits its flaws.
+- Start with Lite. If you like the result, regenerate in Pro with the
+  same prompt for the publishable version.
+- If you work with a fixed avatar, see the recipe
+  [Build an AI influencer](/en/recipes/ai-influencer).

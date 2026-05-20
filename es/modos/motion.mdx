@@ -1,11 +1,11 @@
 ---
 title: "Motion"
-description: "Aplica un movimiento controlado a tu personaje desde una referencia: tu personaje moviéndose exactamente como el clip, con su estilo original."
+description: "Aplica un movimiento controlado a tu personaje desde una referencia: tu personaje moviéndose exactamente como el clip, con su estilo original y el audio del clip conservado."
 ---
 
-Motion copia el movimiento de un vídeo de referencia sobre una imagen de
-personaje. Tú te grabas moviéndote o hablando; el resultado es ese mismo
-movimiento con otra cara/cuerpo.
+Motion copia el movimiento de un vídeo de referencia sobre una imagen
+de personaje. Tú te grabas moviéndote o hablando; el resultado es ese
+mismo movimiento con otra cara/cuerpo.
 
 ## Qué necesitas
 
@@ -14,7 +14,7 @@ movimiento con otra cara/cuerpo.
     La imagen que se va a animar (por ejemplo, un AI Avatar tuyo).
   </Card>
   <Card title="Vídeo de movimiento" icon="video">
-    Un clip corto (3–30 s) tuyo moviéndote o hablando.
+    Un clip corto (3 a 30 s) tuyo moviéndote o hablando.
   </Card>
 </CardGroup>
 
@@ -34,11 +34,40 @@ movimiento con otra cara/cuerpo.
   </Step>
 </Steps>
 
+## Calidades
+
+- **Standard** (720p): el caballo de batalla, fluido y bien definido.
+- **Pro** (1080p): para piezas que vas a destacar (anuncios, hero
+  clips).
+
+## Coste estimado
+
+Coste por segundo de la **fuente** (la duración del clip de
+referencia define la duración del resultado).
+
+| Calidad | Coste |
+| --- | --- |
+| **Standard** | 6 cr/s |
+| **Pro** | 8 cr/s |
+
+Ejemplo: un Motion Standard de 8 s = 48 cr. Caben ~2 en un mes
+Starter (120 cr) o ~12 en Pro (600 cr).
+
 <Note>
-  El audio original del clip de referencia se conserva en el resultado.
-  Graba con buena luz y la cara visible para que la transferencia sea
-  limpia.
+  El audio original del clip de referencia se conserva en el
+  resultado. Graba con buena luz y la cara visible para que la
+  transferencia sea limpia.
 </Note>
 
-¿Tutorial paso a paso con ejemplos? Está en
-[zevor.ai/motion](https://zevor.ai/motion).
+## Buenas prácticas
+
+- **Cara visible** en el clip de movimiento: si quieres que la
+  transferencia sea natural, la cámara tiene que ver bien la cara.
+- **Encuadre coherente**: si el clip es plano medio, sube una imagen
+  también en plano medio. Encuadres muy distintos rompen la
+  transferencia.
+- **Movimiento claro**, no demasiado caótico.
+
+¿Receta paso a paso?
+[Recrear un clip viral con Motion](/es/recetas/motion-clip). Y un
+tutorial visual en [zevor.ai/motion](https://zevor.ai/motion).

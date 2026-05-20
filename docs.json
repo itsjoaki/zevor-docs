@@ -57,6 +57,24 @@
             ]
           },
           {
+            "group": "Herramientas de vídeo",
+            "pages": [
+              "es/herramientas-video/quitar-fondo-video",
+              "es/herramientas-video/escalar-video",
+              "es/herramientas-video/camara-lenta",
+              "es/herramientas-video/foto-que-habla"
+            ]
+          },
+          {
+            "group": "Recetas",
+            "pages": [
+              "es/recetas/ai-influencer",
+              "es/recetas/motion-clip",
+              "es/recetas/restaurar-foto",
+              "es/recetas/foto-que-habla"
+            ]
+          },
+          {
             "group": "Más",
             "pages": ["es/herramientas", "es/creditos-y-planes", "es/faq"]
           }
@@ -76,6 +94,24 @@
               "en/modes/motion",
               "en/modes/characters",
               "en/modes/image"
+            ]
+          },
+          {
+            "group": "Video tools",
+            "pages": [
+              "en/video-tools/remove-video-background",
+              "en/video-tools/upscale-video",
+              "en/video-tools/slow-motion",
+              "en/video-tools/talking-photo"
+            ]
+          },
+          {
+            "group": "Recipes",
+            "pages": [
+              "en/recipes/ai-influencer",
+              "en/recipes/motion-clip",
+              "en/recipes/restore-photo",
+              "en/recipes/talking-photo"
             ]
           },
           {

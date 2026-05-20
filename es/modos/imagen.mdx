@@ -1,33 +1,52 @@
 ---
 title: "Imagen con IA"
-description: "Genera imágenes en alta resolución desde un prompt, o edita a partir de referencias. Sin foto previa necesaria."
+description: "Genera imágenes en alta resolución desde un prompt, o edita a partir de referencias. Calidades Lite, Standard y Pro. Identidad consistente con hasta 5 referencias en Pro."
 ---
 
-El modo Imagen genera imágenes verticales 9:16 desde un prompt, o edita
-a partir de imágenes de referencia.
+El modo Imagen genera imágenes verticales 9:16 desde un prompt, o
+edita a partir de imágenes de referencia.
 
 ## Variantes
 
 | Variante | Qué aportas | Para qué |
 | --- | --- | --- |
-| **Texto a imagen** | Un prompt | Crear una imagen desde cero |
-| **Imagen a imagen** | 1–3 referencias + prompt | Reinterpretar o combinar imágenes |
+| **Texto a imagen** | Un prompt | Crear una imagen desde cero. |
+| **Imagen a imagen** | 1 a 3 referencias + prompt | Reinterpretar o combinar imágenes. |
 
 ## Calidad
 
-- **Lite** — rápido y barato para iterar.
-- **Standard** — equilibrio para la mayoría de casos.
-- **Pro** — máxima fidelidad y adherencia al prompt.
+- **Lite**: rápido y barato para iterar.
+- **Standard**: equilibrio para la mayoría de casos.
+- **Pro**: máxima fidelidad y mejor preservación de identidad cuando
+  hay referencias.
 
-El coste en créditos depende de la calidad y se muestra antes de generar.
+## Coste estimado
+
+| Calidad | Coste por imagen |
+| --- | --- |
+| **Lite** | 2 cr |
+| **Standard** | 4 cr |
+| **Pro** | 6 cr |
+
+Ejemplo: 4 candidatos Pro = 24 cr. Caben ~5 series en un mes Starter.
 
 <Note>
-  El límite de cada imagen de entrada es 5 MB. Si subes algo más grande,
-  Zevor te avisa para que la reduzcas antes.
+  El límite de cada imagen de entrada es 5 MB. Si subes algo más
+  grande, Zevor te avisa para que la reduzcas antes.
 </Note>
+
+## Ejemplos de prompt
+
+- **Texto a imagen**: "Plano medio editorial, modelo morena con pecas
+  apoyada en un coche en una calle de Lisboa al atardecer, luz cálida
+  natural, mirada a cámara."
+- **Imagen a imagen**: subes una foto tuya + prompt "mismo personaje
+  en una azotea de Madrid, atardecer, ropa streetwear neutra".
 
 ## Consejos
 
 - Las referencias mandan: si quieres conservar una cara o un estilo,
   adjunta una imagen clara de eso.
 - Describe encuadre y luz, no solo el contenido.
+- Para mantener la misma cara entre series, mejor que repetir el
+  prompt usa un avatar guardado (ver [AI Avatars](/es/modos/personajes)).

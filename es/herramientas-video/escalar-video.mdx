@@ -1,0 +1,68 @@
+---
+title: "Escalar vídeo"
+description: "Sube la resolución y la nitidez de un vídeo con IA. De 720p a 4K, recuperando detalle en clips antiguos, comprimidos o exportados a baja calidad."
+---
+
+Escalar vídeo usa IA para subir la resolución y devolver detalle a un
+clip que perdió calidad. No es un simple "estirar píxeles": reconstruye
+texturas, bordes y rostros frame a frame.
+
+## Para qué sirve
+
+- Recuperar grabaciones antiguas de móvil o cámara compacta.
+- Subir un clip exportado a baja calidad (WhatsApp, redes, screen
+  recorder) hasta resolución de publicación.
+- Sacar fotogramas nítidos para miniaturas o capturas.
+
+## Cómo funciona
+
+<Steps>
+  <Step title="Sube el vídeo">
+    MP4 hasta **20 segundos** de origen, hasta **1080p** de resolución
+    de entrada. Si tu vídeo es más largo, córtalo antes en trozos.
+  </Step>
+  <Step title="Elige el factor">
+    **2x** (la mayoría de los casos) o **4x** (cuando partes de baja
+    resolución y quieres llegar a 4K). El coste sube cuadráticamente
+    porque 4x renderiza ~4× los píxeles de 2x.
+  </Step>
+  <Step title="Genera y descarga">
+    El proceso es asíncrono: dejas el job lanzado, te avisamos cuando
+    está. Descarga MP4 listo para publicar.
+  </Step>
+</Steps>
+
+## Coste
+
+| Duración × factor | Coste aproximado |
+| --- | --- |
+| 5 s a 2x | 30 cr |
+| 10 s a 2x | 60 cr |
+| 5 s a 4x | 120 cr |
+| 10 s a 4x | 240 cr |
+
+El factor manda: 4x cuesta 4× lo que 2x para la misma duración. Si solo
+necesitas que el clip se vea bien en TikTok o Reels, **2x suele ser
+suficiente**.
+
+## Buenas prácticas
+
+- Empieza por **2x**. Si después de descargar el resultado quieres
+  más, vuelves a procesarlo a 4x. Ahorras créditos en lo que era una
+  prueba.
+- No mezcles upscale con compresión agresiva. Si tu fuente está muy
+  comprimida, la IA recupera lo que puede, pero parte ya se perdió.
+- Para piezas largas, **trocea antes** (10 segundos máximo por
+  trozo) y reensambla en CapCut/Premiere.
+
+## Limitaciones
+
+- 20 segundos máximo de origen por job.
+- 1080p máximo de entrada (si subes 4K, no aporta nada y consume
+  más cómputo).
+- Solo MP4.
+
+<Note>
+  Prueba: [zevor.ai/escalar-video](https://zevor.ai/escalar-video).
+  Para una sola imagen, mira [Escalar imagen](https://zevor.ai/escalar-imagen).
+</Note>

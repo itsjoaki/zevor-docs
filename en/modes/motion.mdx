@@ -1,6 +1,6 @@
 ---
 title: "Motion"
-description: "Apply controlled motion to your character from a reference: your character moving exactly like the clip, in its original style."
+description: "Apply controlled motion to your character from a reference: your character moving exactly like the clip, in its original style, with the clip's audio kept."
 ---
 
 Motion copies the movement from a reference video onto a character
@@ -14,7 +14,7 @@ movement with a different face/body.
     The image to animate (e.g. one of your AI Avatars).
   </Card>
   <Card title="Motion video" icon="video">
-    A short clip (3–30 s) of you moving or talking.
+    A short clip (3 to 30 s) of you moving or talking.
   </Card>
 </CardGroup>
 
@@ -34,10 +34,37 @@ movement with a different face/body.
   </Step>
 </Steps>
 
+## Quality tiers
+
+- **Standard** (720p): the workhorse, fluid and well-defined.
+- **Pro** (1080p): for hero pieces (ads, key clips).
+
+## Cost estimate
+
+Priced per second of the **source** (the reference clip's duration
+sets the result's duration).
+
+| Quality | Cost |
+| --- | --- |
+| **Standard** | 6 cr/s |
+| **Pro** | 8 cr/s |
+
+Example: a Standard Motion, 8 s = 48 cr. Fits ~2 in a Starter month
+(120 cr) or ~12 in Pro (600 cr).
+
 <Note>
   The original audio from the reference clip is kept in the result.
   Record with good light and the face visible for a clean transfer.
 </Note>
 
-Want a step-by-step tutorial with examples? It's at
-[zevor.ai/en/motion](https://zevor.ai/en/motion).
+## Best practices
+
+- **Face visible** in the motion clip: if you want the transfer to
+  look natural, the camera has to see the face well.
+- **Matching framing**: if the clip is a medium shot, upload an image
+  also at medium shot. Very different framing breaks the transfer.
+- **Clear movement**, not too chaotic.
+
+Step-by-step recipe?
+[Recreate a viral clip with Motion](/en/recipes/motion-clip). And a
+visual walkthrough at [zevor.ai/motion](https://zevor.ai/motion).

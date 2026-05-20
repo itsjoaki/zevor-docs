@@ -1,6 +1,6 @@
 ---
 title: "AI Avatars"
-description: "Generate an avatar once with AI and reuse it in motion clips, slideshows and any format — same face every time, different pose, outfit or scene."
+description: "Generate an avatar once with AI and reuse it in motion clips, videos and talking photo. Same face every time, different pose, outfit or scene. Consistent identity across shots."
 ---
 
 An AI Avatar is a consistent character: same face, distinctive marks
@@ -15,34 +15,50 @@ library, and reuse it in any mode.
     own free-text prompt.
   </Step>
   <Step title="Generate and pick">
-    The AI generates one or more faces. Keep the one you like best.
+    The AI generates 4 candidates. Keep the one you like best.
   </Step>
   <Step title="Save">
-    Name it and it's added to your avatar library to reuse. You can also
-    **Download** the face directly.
+    Name it and it's added to your avatar library to reuse. You can
+    also **Download** the face directly.
   </Step>
 </Steps>
 
+## Cost estimate
+
+| Action | Cost |
+| --- | --- |
+| Create avatar (4 candidates) | ~16 cr |
+| Remix variations (4 images) | ~12 cr |
+| Animate in Motion | 6 cr/s |
+| Talking photo with the avatar | 4 cr per real speech second |
+
 ## "Prompt only" mode
 
-By default, if you don't pick chips, Zevor adds a random scene, outfit
-and pose for variety and realism. If you want your text to be the only
-thing driving it, turn on **Prompt only**:
+By default, if you don't pick chips, Zevor adds a random scene,
+outfit and pose for variety and realism. If you want your text to be
+the only thing driving it, turn on **Prompt only**:
 
-- Uses just your prompt + the core photorealism (real skin, no CGI,
-  9:16 framing with no cropping).
+- Uses just your prompt plus the core photorealism (real skin, no
+  CGI, 9:16 framing with no cropping).
 - Adds no random scene, outfit or pose.
 - Ignores the builder attributes.
 
 <Note>
-  In "Prompt only" mode you need to type text — a lone chip isn't enough
-  because the builder is ignored.
+  In "Prompt only" mode you need to type text: a lone chip isn't
+  enough because the builder is ignored.
 </Note>
 
 ## Reuse
 
 From the avatar page you can:
 
-- **Remix** — same face, different pose, outfit or scene.
-- **Animate** — take it into [Motion](/en/modes/motion) as the character.
-- **Download** — the face, or all variations as a ZIP.
+- **Remix**: same face, different pose, outfit or scene.
+- **Animate**: take it into [Motion](/en/modes/motion) as the character.
+- **Talking photo**: make it say whatever you want.
+- **Download**: the face, or all variations as a ZIP.
+
+## Full workflow
+
+To take an avatar from zero to a publication series, follow the
+[Build an AI influencer](/en/recipes/ai-influencer) recipe. It covers
+the whole flow: base face, variations, videos and voiceovers.

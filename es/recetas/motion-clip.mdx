@@ -1,0 +1,75 @@
+---
+title: "Recrear un clip viral con Motion"
+description: "Graba tu propio clip moviéndote, sube un avatar como referencia, y Motion devuelve el avatar haciendo el mismo movimiento. Receta paso a paso."
+---
+
+Motion copia el movimiento de un clip tuyo (o de cualquier referencia)
+sobre la cara/cuerpo de un avatar o de una foto. Es la receta detrás
+de los vídeos de "este AI character bailando como X".
+
+## Resultado
+
+- Un vídeo vertical 9:16 con tu avatar (o cualquier imagen de persona)
+  haciendo el mismo movimiento que tu clip de referencia, con el audio
+  original conservado.
+
+## Tiempo y créditos estimados
+
+- **Tiempo total**: ~5-10 minutos.
+- **Créditos**: 18-48 cr para un clip de 3-8 s en Motion estándar.
+
+## Pasos
+
+<Steps>
+  <Step title="Graba el clip de movimiento">
+    3-30 s tuyos moviéndote o hablando, con buena luz y la cara visible
+    si la quieres en el resultado. Cámara estable, plano cerrado o
+    medio. Cualquier móvil sirve.
+  </Step>
+  <Step title="Prepara la imagen de personaje">
+    Una imagen vertical del personaje que va a "interpretar" el clip.
+    Puede ser:
+    - Un avatar que ya tengas guardado (ver [Personajes](/es/modos/personajes)).
+    - Una foto real (la tuya, la de un cliente, etc.).
+    - Una imagen generada con [Imagen](/es/modos/imagen).
+  </Step>
+  <Step title="Lleva todo a Motion">
+    En **Crear → Motion**:
+    - Slot **CHARACTER**: la imagen de personaje.
+    - Slot **MOTION VIDEO**: tu clip de movimiento.
+    - Prompt: opcional, el clip manda.
+  </Step>
+  <Step title="Genera">
+    El resultado conserva el **audio original** del clip de
+    referencia. Útil cuando el audio era la mitad del valor del vídeo
+    (gestos hablando, risas, etc.).
+    
+    Coste: 6 cr/s en Motion estándar, 8 cr/s en Motion Pro.
+  </Step>
+  <Step title="Descarga y publica">
+    MP4 vertical 9:16 directo a TikTok / Reels / Shorts.
+  </Step>
+</Steps>
+
+## Buenas prácticas
+
+- **Cara visible** en el clip de movimiento: si quieres que la
+  transferencia sea natural, la cámara tiene que ver bien la cara.
+- **Movimiento claro**, no demasiado caótico. Un baile sencillo o un
+  gesto definido funciona mejor que un movimiento muy rápido.
+- **Mismo encuadre**: si el clip de referencia es plano medio, sube
+  una imagen también en plano medio. Encuadres muy distintos rompen
+  la transferencia.
+- **Reutiliza el mismo avatar** entre clips para construir reconocimiento
+  (ver receta [Crear un AI Influencer](/es/recetas/ai-influencer)).
+
+## Errores comunes
+
+- **Imagen de cuerpo entero + clip primer plano**: Motion no inventa
+  cuerpo. Ajusta la imagen al mismo encuadre que el clip.
+- **Personaje en perfil**: pierde detalle. Frontal o ¾ siempre.
+
+<Note>
+  Tutorial paso a paso con ejemplos en
+  [zevor.ai/motion](https://zevor.ai/motion).
+</Note>

@@ -1,32 +1,52 @@
 ---
 title: "AI images"
-description: "Generate high-resolution images from a prompt, or edit from references. No source photo needed."
+description: "Generate high-resolution images from a prompt, or edit from references. Lite, Standard and Pro quality. Identity preservation across up to 5 references in Pro."
 ---
 
-Image mode generates vertical 9:16 images from a prompt, or edits from
-reference images.
+Image mode generates vertical 9:16 images from a prompt, or edits
+from reference images.
 
 ## Variants
 
 | Variant | What you bring | For |
 | --- | --- | --- |
-| **Text to image** | A prompt | Create an image from scratch |
-| **Image to image** | 1–3 references + prompt | Reinterpret or combine images |
+| **Text to image** | A prompt | Create an image from scratch. |
+| **Image to image** | 1 to 3 references + prompt | Reinterpret or combine images. |
 
 ## Quality
 
-- **Lite** — fast and cheap for iterating.
-- **Standard** — balanced for most cases.
-- **Pro** — max fidelity and prompt adherence.
+- **Lite**: fast and cheap for iterating.
+- **Standard**: balanced for most cases.
+- **Pro**: max fidelity and best identity preservation when there are
+  references.
 
-The credit cost depends on quality and is shown before you generate.
+## Cost estimate
+
+| Quality | Cost per image |
+| --- | --- |
+| **Lite** | 2 cr |
+| **Standard** | 4 cr |
+| **Pro** | 6 cr |
+
+Example: 4 Pro candidates = 24 cr. Fits ~5 series in a Starter month.
 
 <Note>
   Each input image is capped at 5 MB. If you upload something larger,
   Zevor warns you so you can shrink it first.
 </Note>
 
+## Prompt examples
+
+- **Text to image**: "Editorial medium shot, brunette model with
+  freckles leaning on a car on a Lisbon street at sunset, warm natural
+  light, looking at camera."
+- **Image to image**: upload a photo + prompt "same character on a
+  Madrid rooftop, sunset, neutral streetwear".
+
 ## Tips
 
-- References win: to keep a face or a style, attach a clear image of it.
+- References win: to keep a face or a style, attach a clear image of
+  it.
 - Describe framing and lighting, not just the content.
+- To keep the same face across series, instead of repeating the
+  prompt use a saved avatar (see [AI Avatars](/en/modes/characters)).
